@@ -14,7 +14,6 @@ d = Counter(d1) + Counter(d2)
 print(d)
 
 # #variant_2
-D = {}
 for k in d2:
         if k in d1:
             d2[k] = d1[k] + d2[k]
